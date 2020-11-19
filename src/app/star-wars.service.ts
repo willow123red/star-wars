@@ -22,7 +22,7 @@ export class StarWarsService {
       return this.characters.slice();
     }
     return this.characters.filter((char) => {
-      return char.side === chosenList
+      return char.side === chosenList;
     })
   }
 
